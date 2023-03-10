@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".s1MainActivity">
+
+    <TextView
+        android:id="@+id/txtpersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#000000"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:text="Personal Detail"/>
+
+    <EditText
+        android:id="@+id/edfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="fist Name"/>
+
+    <EditText
+        android:id="@+id/edlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="last number"/>
+
+    <RadioGroup
+        android:id="@+id/rdogeneral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radmale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="male"/>
+        <RadioButton
+            android:id="@+id/radfemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="female"/>
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/edmobilenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Mobile number"/>
+
+    <EditText
+        android:id="@+id/edemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"/>
+
+    <EditText
+        android:id="@+id/edweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Web site"/>
+
+
+    <EditText
+        android:id="@+id/edadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="address"/>
+
+    <Button
+        android:id="@+id/btnnexta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF2BC49D"
+        android:gravity="center"
+        android:text="Next"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+</LinearLayout>

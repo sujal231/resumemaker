@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s3MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtpersonal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#000000"
+                android:textSize="30dp"
+                android:textColor="#ffffff"
+                android:text="Education"/>
+
+
+            <EditText
+                android:id="@+id/edschool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="school Name"/>
+
+            <EditText
+                android:id="@+id/edcollege"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="college name"/>
+
+            <EditText
+                android:id="@+id/eddegree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Degree "/>
+
+
+            <EditText
+                android:id="@+id/edstdtenpr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="std 10 pr "/>
+
+
+            <EditText
+                android:id="@+id/edstdtwelvepr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="std 12 pr"/>
+
+
+            <Button
+                android:id="@+id/btnnextc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FF2BC49D"
+                android:gravity="center"
+                android:text="Next"
+                android:textSize="18dp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

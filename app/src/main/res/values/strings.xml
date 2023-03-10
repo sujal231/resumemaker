@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">resume maker</string>
+    <string name="r"><b><u>Personal Detal</u></b></string>
+    <string name="t"><b><u>Work History</u></b></string>
+</resources>

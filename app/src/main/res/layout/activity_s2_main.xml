@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".s2MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/txtpersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#000000"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:text="work history"/>
+
+
+    <EditText
+        android:id="@+id/edjob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="job title"/>
+
+    <EditText
+        android:id="@+id/edcompname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="company name"/>
+
+        <EditText
+            android:id="@+id/edstaryear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="star year"/>
+
+        <EditText
+            android:id="@+id/edposition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="position"/>
+
+
+
+    <EditText
+        android:id="@+id/edempsal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Employer salary"/>
+
+
+    <EditText
+        android:id="@+id/edempexp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Employer experience"/>
+
+
+    <Button
+        android:id="@+id/btnnextb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF2BC49D"
+        android:gravity="center"
+        android:text="Next"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>
