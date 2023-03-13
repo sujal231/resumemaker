@@ -32,7 +32,8 @@ public class s5MainActivity extends AppCompatActivity {
         btnnexte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent = new Intent(s5MainActivity.this,s6MainActivity.class);
+                startActivity(intent);
             }
         });
 

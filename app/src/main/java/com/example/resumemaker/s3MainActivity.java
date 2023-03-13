@@ -47,7 +47,7 @@ public class s3MainActivity extends AppCompatActivity {
                 editor.putString("stdtwelvepr",edtstdtwelvepr.getText().toString());
                 editor.apply();
 
-                Intent intent = new Intent(s3MainActivity.this,MainActivity4.class);
+                Intent intent = new Intent(s3MainActivity.this,s4MainActivity.class);
                 startActivity(intent);
             }
         });

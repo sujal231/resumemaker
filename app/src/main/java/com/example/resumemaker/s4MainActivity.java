@@ -38,7 +38,8 @@ public class s4MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-
+                Intent intent = new Intent(s4MainActivity.this,s5MainActivity.class);
+                startActivity(intent);
             }
         });
 
