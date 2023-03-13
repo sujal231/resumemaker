@@ -15,13 +15,12 @@ import android.widget.TextView;
 
 public class s1MainActivity extends AppCompatActivity {
 
-    TextView txtpersonal;
     Button btnnexta;
-    RadioGroup rdogeneral;
-    RadioButton radmale,radfemale;
 
-    EditText edfname,edlname,edmobilenumber,edemail,edweb,edadd;
+    EditText edtfname,edtlname,edtmobilenumber,edtemail,edtweb,edtadd;
     SharedPreferences preferences;
+
+    SharedPreferences.Editor editor;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -31,51 +30,33 @@ public class s1MainActivity extends AppCompatActivity {
 
 
         btnnexta = findViewById(R.id.btnnexta);
-        edfname = findViewById(R.id.edfname);
-        edlname = findViewById(R.id.edlname);
-        edmobilenumber = findViewById(R.id.edmobilenumber);
-        edemail = findViewById(R.id.edemail);
-        edweb = findViewById(R.id.edweb);
-        edadd = findViewById(R.id.edadd);
-        rdogeneral = findViewById(R.id.rdogeneral);
-        radmale = findViewById(R.id.radmale);
-        radfemale = findViewById(R.id.radfemale);
+        edtfname = findViewById(R.id.edtfname);
+        edtlname = findViewById(R.id.edtlname);
+        edtmobilenumber = findViewById(R.id.edtmobilenumber);
+        edtemail = findViewById(R.id.edtemail);
+        edtweb = findViewById(R.id.edtweb);
+        edtadd = findViewById(R.id.edtadd);
 
         preferences = getSharedPreferences("sujal",0);
-
+        editor = preferences.edit();
 
 
 
         btnnexta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String rdo="";
-                if (radmale.isChecked())
-                {
-                    rdo += "male";
-                }
 
-                if (radfemale.isChecked())
-                {
-                    rdo += "female";
-                }
-
-                SharedPreferences.Editor editor = preferences.edit();
-
-                editor.putString("fname",edfname.getText().toString());
-                editor.putString("lname",edlname.getText().toString());
-                editor.putString("mobilenumber",edmobilenumber.getText().toString());
-                editor.putString("add",edadd.getText().toString());
-                editor.putString("email",edemail.getText().toString());
-                editor.putString("web",edweb.getText().toString());
-                editor.putString("rdo",rdo);
-
+                editor.putString("fname",edtfname.getText().toString());
+                editor.putString("lname", edtlname.getText().toString());
+                editor.putString("mobilenumber",edtmobilenumber.getText().toString());
+                editor.putString("add",edtadd.getText().toString());
+                editor.putString("email",edtemail.getText().toString());
+                editor.putString("web",edtweb.getText().toString());
                 editor.apply();
 
 
-                Intent intent = new Intent(s1MainActivity.this, s2MainActivity.class);
+                Intent intent = new Intent(s1MainActivity.this,s2MainActivity.class);
                 startActivity(intent);
-
 
             }
         });

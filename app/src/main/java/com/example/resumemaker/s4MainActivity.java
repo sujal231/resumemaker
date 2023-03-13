@@ -14,7 +14,6 @@ import android.widget.EditText;
 public class s4MainActivity extends AppCompatActivity {
     Button btnnextd;
     CheckBox comedy,painting,Music,Dance,Drawing,Coding,Sports,Running,reading,gameing;
-    SharedPreferences preferences;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,28 +33,12 @@ public class s4MainActivity extends AppCompatActivity {
         reading = findViewById(R.id.reading);
         gameing = findViewById(R.id.gameing);
 
-        preferences = getSharedPreferences("sujal",0);
 
         btnnextd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                SharedPreferences.Editor editor = preferences.edit();
 
-                editor.putString("painting",painting.getText().toString());
-                editor.putString("comedy",comedy.getText().toString());
-                editor.putString("Music",Music.getText().toString());
-                editor.putString("Dance",Dance.getText().toString());
-                editor.putString("Drawing",Drawing.getText().toString());
-                editor.putString("Coding",Coding.getText().toString());
-                editor.putString("Sports",Sports.getText().toString());
-                editor.putString("Running",Running.getText().toString());
-                editor.putString("reading",reading.getText().toString());
-                editor.putString("gameing",gameing.getText().toString());
-
-
-                Intent intent = new Intent(s4MainActivity.this,MainActivity2.class);
-                startActivity(intent);
             }
         });
 

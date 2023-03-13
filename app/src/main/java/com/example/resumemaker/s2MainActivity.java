@@ -13,8 +13,12 @@ import android.widget.RadioGroup;
 
 public class s2MainActivity extends AppCompatActivity {
     Button btnnextb;
-    EditText edjob,edcompname,edempsal,edstaryear,edposition,edempexp;
+    EditText edtjob,edtcompname,edtempsal,edtstaryear,edtposition,edtempexp;
+
     SharedPreferences preferences;
+
+    SharedPreferences.Editor editor;
+
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,30 +28,32 @@ public class s2MainActivity extends AppCompatActivity {
 
 
         btnnextb = findViewById(R.id.btnnextb);
-        edjob = findViewById(R.id.edjob);
-        edcompname = findViewById(R.id.edcompname);
-        edempsal = findViewById(R.id.edempsal);
-        edempexp = findViewById(R.id.edempexp);
-        edstaryear = findViewById(R.id.edstaryear);
-        edposition = findViewById(R.id.edposition);
+        edtjob = findViewById(R.id.edtjob);
+        edtcompname = findViewById(R.id.edtcompname);
+        edtempsal = findViewById(R.id.edtempsal);
+        edtempexp = findViewById(R.id.edtempexp);
+        edtstaryear = findViewById(R.id.edtstaryear);
+        edtposition = findViewById(R.id.edtposition);
 
         preferences = getSharedPreferences("sujal",0);
+        editor = preferences.edit();
+
 
         btnnextb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                SharedPreferences.Editor editor = preferences.edit();
-
-                editor.putString("job",edjob.getText().toString());
-                editor.putString("compname",edcompname.getText().toString());
-                editor.putString("empsal",edempsal.getText().toString());
-                editor.putString("empexp",edempexp.getText().toString());
-                editor.putString("staryear",edstaryear.getText().toString());
-                editor.putString("position",edposition.getText().toString());
+                editor.putString("job",edtjob.getText().toString());
+                editor.putString("compname",edtcompname.getText().toString());
+                editor.putString("empsal",edtempsal.getText().toString());
+                editor.putString("empexp",edtempexp.getText().toString());
+                editor.putString("staryear",edtstaryear.getText().toString());
+                editor.putString("position",edtposition.getText().toString());
                 editor.apply();
 
-                Intent intent = new Intent(s2MainActivity.this,MainActivity2.class);
+
+
+                Intent intent = new Intent(s2MainActivity.this,s3MainActivity.class);
                 startActivity(intent);
                 
             }

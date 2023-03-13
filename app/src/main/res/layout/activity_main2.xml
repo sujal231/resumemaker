@@ -13,61 +13,50 @@
         android:layout_width="60dp"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:background="#FF2BC49D"
         android:orientation="vertical"
         >
 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:src="@drawable/img_4"
             />
-
-
-
-        <TextView
-            android:id="@+id/txtgeneral"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="general"/>
-
-
+    </LinearLayout>
 
         <TextView
-            android:id="@+id/txtphone"
+            android:id="@+id/txtmobilenumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="phone"
-            />
-
-        <TextView
-            android:id="@+id/edemail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="emali"
+            android:text=""
             />
 
 
         <TextView
-            android:id="@+id/edlinkedin"
+            android:id="@+id/txtemail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="lin id"
+            android:text=""
             />
 
 
         <TextView
-            android:id="@+id/edweb"
+            android:id="@+id/txtweb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="web"
+            android:text=""
             />
         <TextView
-            android:id="@+id/edadd"
+            android:id="@+id/txtadd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="add"
+            android:text=""
             />
 
 
@@ -92,7 +81,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:background="#FF2BC49D"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center">
             <TextView
                 android:id="@+id/txtfname"
                 android:layout_width="wrap_content"
@@ -100,12 +90,6 @@
                 android:gravity="center"
                 android:text="fname"
                 android:textSize="20dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="  "
-                    android:textSize="20dp"/>
 
                 <TextView
                 android:id="@+id/txtlname"
@@ -134,19 +118,74 @@
             android:text=""
             />
         <TextView
-            android:id="@+id/txtcompanyname"
+            android:id="@+id/txtcompname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtempsal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtempexp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtstaryear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtposition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
             />
 
         <TextView
-            android:id="@+id/txtpainting"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="general"/>
+            android:text="Education"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
 
-
+        <TextView
+            android:id="@+id/txtshcool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtcollege"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtdegree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtstdtenpr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+        <TextView
+            android:id="@+id/txtstdtwelvepr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
 
     </LinearLayout>
 

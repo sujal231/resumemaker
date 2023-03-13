@@ -26,33 +26,33 @@
 
 
             <EditText
-                android:id="@+id/edschool"
+                android:id="@+id/edtschool"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="school Name"/>
 
             <EditText
-                android:id="@+id/edcollege"
+                android:id="@+id/edtcollege"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="college name"/>
 
             <EditText
-                android:id="@+id/eddegree"
+                android:id="@+id/edtdegree"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="Degree "/>
 
 
             <EditText
-                android:id="@+id/edstdtenpr"
+                android:id="@+id/edtstdtenpr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="std 10 pr "/>
 
 
             <EditText
-                android:id="@+id/edstdtwelvepr"
+                android:id="@+id/edtstdtwelvepr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="std 12 pr"/>

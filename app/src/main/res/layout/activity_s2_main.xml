@@ -28,43 +28,45 @@
 
 
     <EditText
-        android:id="@+id/edjob"
+        android:id="@+id/edtjob"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="job title"/>
 
     <EditText
-        android:id="@+id/edcompname"
+        android:id="@+id/edtcompname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="company name"/>
 
         <EditText
-            android:id="@+id/edstaryear"
+            android:id="@+id/edtempsal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Employer salary"/>
+
+        <EditText
+            android:id="@+id/edtempexp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Employer experience"/>
+
+
+
+
+        <EditText
+            android:id="@+id/edtstaryear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="star year"/>
-
         <EditText
-            android:id="@+id/edposition"
+            android:id="@+id/edtposition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="position"/>
 
 
 
-    <EditText
-        android:id="@+id/edempsal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Employer salary"/>
-
-
-    <EditText
-        android:id="@+id/edempexp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Employer experience"/>
 
 
     <Button

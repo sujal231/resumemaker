@@ -18,21 +18,35 @@
         android:text="Personal Detail"/>
 
     <EditText
-        android:id="@+id/edfname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="fist Name"/>
+        android:id="@+id/edtfname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="3dp"
+        android:hint=" fist Name"/>
 
     <EditText
-        android:id="@+id/edlname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="last number"/>
+        android:id="@+id/edtlname"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:hint=" last number"/>
 
     <RadioGroup
         android:id="@+id/rdogeneral"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:orientation="horizontal">
 
         <RadioButton
@@ -51,38 +65,58 @@
 
 
     <EditText
-        android:id="@+id/edmobilenumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Mobile number"/>
+        android:id="@+id/edtmobilenumber"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:hint=" Mobile number"/>
 
     <EditText
-        android:id="@+id/edemail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="E-mail"/>
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:hint=" E-mail"/>
 
     <EditText
-        android:id="@+id/edweb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="Web site"/>
+        android:id="@+id/edtweb"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:hint=" Web site"/>
 
 
     <EditText
-        android:id="@+id/edadd"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="address"/>
+        android:id="@+id/edtadd"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:hint=" Address "/>
 
     <Button
         android:id="@+id/btnnexta"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF2BC49D"
+        android:layout_height="50dp"
+        android:background="@drawable/btn4"
         android:gravity="center"
         android:text="Next"
         android:textSize="18dp"
         android:textColor="#000000"/>
+
+
 
 </LinearLayout>
