@@ -11,7 +11,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivity5 extends AppCompatActivity {
     SharedPreferences preferences;
     TextView txtfname,txtlname,txtjob,txtcompname,txtempsal,txtempexp,txtstaryear,txtposition,txtshcool,txtcollege,txtdegree,txtstdtenpr,txtstdtwelvepr,txtmobilenumber,txtemail,txtweb,txtadd;
 
@@ -19,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main5);
 
         preferences = getSharedPreferences("sujal",0);
 

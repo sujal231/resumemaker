@@ -19,35 +19,56 @@
 
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:text="data base using app  "/>
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:text="SQl Projects "/>
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:text="instagram app making Projects "/>
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:text="all type booking app  Projects "/>
 
     <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
         android:text="Other Projects"/>
 
     <Button
         android:id="@+id/btnnextg"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF2BC49D"
+        android:layout_height="50dp"
+        android:background="@drawable/btn4"
         android:gravity="center"
         android:text="Next"
         android:textSize="18dp"

@@ -29,41 +29,68 @@
 
     <EditText
         android:id="@+id/edtjob"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="job title"/>
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:hint=" job title"/>
 
     <EditText
         android:id="@+id/edtcompname"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:hint="company name"/>
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/btn3"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="5dp"
+        android:inputType="text"
+        android:hint=" company name"/>
 
         <EditText
             android:id="@+id/edtempsal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Employer salary"/>
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/btn3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint=" Employer salary"/>
 
         <EditText
             android:id="@+id/edtempexp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="Employer experience"/>
-
-
-
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/btn3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:hint=" Employer experience"/>
 
         <EditText
             android:id="@+id/edtstaryear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="star year"/>
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/btn3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:inputType="date"
+            android:hint=" star year"/>
         <EditText
             android:id="@+id/edtposition"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="position"/>
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/btn3"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="5dp"
+            android:inputType="text"
+            android:hint=" position"/>
 
 
 
@@ -71,9 +98,10 @@
 
     <Button
         android:id="@+id/btnnextb"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF2BC49D"
+        android:layout_height="50dp"
+        android:background="@drawable/btn4"
         android:gravity="center"
         android:text="Next"
         android:textSize="18dp"

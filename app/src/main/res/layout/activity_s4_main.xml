@@ -24,78 +24,110 @@
                 android:textColor="#ffffff"
                 android:text="Hobby "/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Hobby"
-                android:textSize="20dp"/>
 
             <CheckBox
                 android:id="@+id/painting"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Painting"/>
 
             <CheckBox
                 android:id="@+id/comedy"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="comedy"/>
 
             <CheckBox
                 android:id="@+id/Music"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Music"/>
             <CheckBox
                 android:id="@+id/Dance"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Dance"/>
             <CheckBox
                 android:id="@+id/Drawing"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Drawing"/>
             <CheckBox
                 android:id="@+id/Coding"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Coding"/>
             <CheckBox
                 android:id="@+id/Sports"
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Sports"/>
             <CheckBox
                 android:id="@+id/Running"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Running"/>
 
             <CheckBox
                 android:id="@+id/reading"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Reading"/>
 
             <CheckBox
                 android:id="@+id/gameing"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="gameing"/>
 
 
 
             <Button
                 android:id="@+id/btnnextd"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FF2BC49D"
+                android:layout_height="50dp"
+                android:background="@drawable/btn4"
                 android:gravity="center"
                 android:text="Next"
                 android:textSize="18dp"

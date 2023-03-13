@@ -14,13 +14,13 @@
         android:src="@drawable/img_1"/>
 
 
-
-
     <Button
         android:id="@+id/btnstart"
+        android:layout_marginTop="20dp"
+
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF2BC49D"
+        android:layout_height="50dp"
+        android:background="@drawable/btn4"
         android:gravity="center"
         android:text="Start"
         android:textSize="18dp"

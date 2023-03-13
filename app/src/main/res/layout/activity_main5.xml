@@ -5,29 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context=".s3MainActivity">
-
+    tools:context=".MainActivity5">
 
 
     <LinearLayout
-        android:layout_width="60dp"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="#FF2BC49D"
-        android:orientation="vertical"
-        >
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+
+
 
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/white">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:src="@drawable/img_4"
-            />
-    </LinearLayout>
+            android:background="#FF2BC49D"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:src="@drawable/img"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+            <TextView
+                android:id="@+id/txtfname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="fname"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:id="@+id/txtlname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="lname"
+                android:textSize="20dp"/>
+        </LinearLayout>
+        </LinearLayout>
 
         <TextView
             android:id="@+id/txtmobilenumber"
@@ -59,59 +82,16 @@
             android:text=""
             />
 
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="3"
-        android:padding=""
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:background="#FF2BC49D"
-            android:orientation="vertical">
-
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#FF2BC49D"
-                android:orientation="horizontal"
-                android:gravity="center">
-            <TextView
-                android:id="@+id/txtfname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="fname"
-                android:textSize="20dp"/>
-
-                <TextView
-                android:id="@+id/txtlname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="lname"
-                android:textSize="20dp"/>
-        </LinearLayout>
-
-        </LinearLayout>
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="work history"
-            android:background="@drawable/btn2"
             android:gravity="center"
+            android:background="@drawable/btn2"
             android:textSize="20dp"
             />
+
+
 
         <TextView
             android:id="@+id/txtjob"
@@ -149,7 +129,6 @@
             android:layout_height="wrap_content"
             android:text=""
             />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -158,6 +137,8 @@
             android:background="@drawable/btn2"
             android:textSize="20dp"
             />
+
+
 
         <TextView
             android:id="@+id/txtshcool"
@@ -189,6 +170,7 @@
             android:layout_height="wrap_content"
             android:text=""
             />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -197,7 +179,6 @@
             android:background="@drawable/btn2"
             android:textSize="20dp"
             />
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -217,6 +198,7 @@
 
 
     </LinearLayout>
+
 
 
 </LinearLayout>

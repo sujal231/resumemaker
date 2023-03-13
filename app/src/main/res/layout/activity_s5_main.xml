@@ -26,45 +26,70 @@
 
             <CheckBox
                 android:id="@+id/problemsolving"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Problem Solving Skill"/>
 
             <CheckBox
                 android:id="@+id/criticalthinking"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Critical Thinking Skill"/>
 
             <CheckBox
                 android:id="@+id/projectmanagementney"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Project Management skill"/>
 
             <CheckBox
                 android:id="@+id/digitalmarketing"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Digital Marketing skill"/>
 
             <CheckBox
                 android:id="@+id/communication"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Communication skill"/>
 
             <CheckBox
                 android:id="@+id/teamwork"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
                 android:text="Teamwork skill"/>
 
             <Button
                 android:id="@+id/btnnexte"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FF2BC49D"
+                android:layout_height="50dp"
+                android:background="@drawable/btn4"
                 android:gravity="center"
                 android:text="Next"
                 android:textSize="18dp"

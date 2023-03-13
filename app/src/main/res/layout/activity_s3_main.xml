@@ -27,42 +27,68 @@
 
             <EditText
                 android:id="@+id/edtschool"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="school Name"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:inputType="text"
+                android:hint=" school Name"/>
 
             <EditText
                 android:id="@+id/edtcollege"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="college name"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:inputType="text"
+                android:hint=" college name"/>
 
             <EditText
                 android:id="@+id/edtdegree"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="Degree "/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:inputType="text"
+                android:hint=" Degree "/>
 
 
             <EditText
                 android:id="@+id/edtstdtenpr"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="std 10 pr "/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint=" std 10 pr "/>
 
 
             <EditText
                 android:id="@+id/edtstdtwelvepr"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="std 12 pr"/>
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/btn3"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:hint=" std 12 pr"/>
 
 
             <Button
                 android:id="@+id/btnnextc"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="#FF2BC49D"
+                android:layout_height="50dp"
+                android:background="@drawable/btn4"
                 android:gravity="center"
                 android:text="Next"
                 android:textSize="18dp"
